@@ -1,14 +1,13 @@
-package escola;
-import org.junit.jupiter.api.Test;
+package test;
 
-import java.io.Console;
+import escola.Email;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class EmailTest {
     @Test
-    void naoDeveriaCriarInvalido(){
+     public void Email(){
         assertThrows(IllegalArgumentException.class,
                 () -> new Email(null));
 
@@ -20,8 +19,10 @@ public class EmailTest {
 
     }
 
+
+
     @Test
-    void deveriarCriar(){
+   public  void deveriarCriar(){
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiago@fsaaddada"));
 
