@@ -20,6 +20,6 @@ public class TelefoneTest {
 
     @Test
     public void devePassar(){
-        new Telefone("11","984304910");
+        new Telefone("10","10099-9999");
     }
 }
