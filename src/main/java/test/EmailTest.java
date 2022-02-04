@@ -16,7 +16,6 @@ public class EmailTest {
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("emailInvalido"));
-
     }
 
 
@@ -31,7 +30,6 @@ public class EmailTest {
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiago@2344343.com"));
-
     }
 
 }
