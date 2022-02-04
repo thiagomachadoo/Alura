@@ -1,4 +1,25 @@
 package test;
 
+import escola.CPF;
+import escola.Telefone;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class TelefoneTest {
+    @Test
+    public void naoDevePassar(){
+        assertThrows(IllegalArgumentException.class,
+                () -> new Telefone(null, null));
+
+        assertThrows(IllegalArgumentException.class,
+                () -> new Telefone("",""));
+
+         new Telefone("DDD inválido","Número inválido");
+    }
+
+    @Test
+    public void devePassar(){
+        new Telefone("11","984304910");
+    }
 }
