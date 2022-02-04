@@ -22,14 +22,13 @@ public class EmailTest {
 
     @Test
    public  void deveriarCriar(){
-        assertThrows(IllegalArgumentException.class,
+       assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiago@fsaaddada"));
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiagofsa12123"));
 
-        assertThrows(IllegalArgumentException.class,
-                () -> new Email("thiago@2344343.com"));
+        new Email("thiago@2344343.com");
     }
 
 }
