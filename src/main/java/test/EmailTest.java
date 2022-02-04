@@ -26,6 +26,8 @@ public class EmailTest {
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiago@fsaaddada"));
 
+        assertThrows(IllegalArgumentException.class,
+                () -> new Email("thiagofsa12123"));
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Email("thiago@2344343.com"));
