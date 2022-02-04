@@ -18,4 +18,13 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numero));
     }
 
+    public Aluno(CPF cpf, String nome, Email email) {
+        this.cpf = cpf;
+        this.nome = nome;
+        this.email = email;
+    }
+
+    public static void main(String[] args) {
+        Aluno a = new Aluno(new CPF("123"), "fulano",new Email("fulano@gmail"));
+    }
 }
