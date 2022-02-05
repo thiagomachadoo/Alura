@@ -1,4 +1,4 @@
-package escola;
+package aluno;
 
 import java.util.ArrayList;
 import java.util.List;

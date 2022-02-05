@@ -1,4 +1,6 @@
-package escola;
+package indicacao;
+
+import aluno.Aluno;
 
 import java.time.LocalDateTime;
 
