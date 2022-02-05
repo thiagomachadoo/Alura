@@ -1,7 +1,6 @@
 package test;
 
-import escola.CPF;
-import escola.Telefone;
+import aluno.Telefone;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

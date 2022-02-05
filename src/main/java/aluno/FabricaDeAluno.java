@@ -1,4 +1,4 @@
-package escola;
+package aluno;
 
 public class FabricaDeAluno {
 

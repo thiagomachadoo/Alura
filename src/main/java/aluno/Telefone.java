@@ -1,4 +1,4 @@
-package escola;
+package aluno;
 
 //fazer teste de unidade da classe telefone
 public class Telefone {
