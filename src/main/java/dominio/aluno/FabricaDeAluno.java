@@ -1,8 +1,8 @@
-package aluno;
+package dominio.aluno;
 
 public class FabricaDeAluno {
 
-    //método responsável por criar o objeto aluno
+    //método responsável por criar o objeto dominio.indicacao.aluno
 
     private Aluno aluno;
 

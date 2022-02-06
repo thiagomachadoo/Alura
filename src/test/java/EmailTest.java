@@ -1,6 +1,4 @@
-package test;
-
-import aluno.Email;
+import dominio.aluno.Email;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -1,6 +1,4 @@
-package test;
-
-import aluno.Telefone;
+import dominio.aluno.Telefone;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

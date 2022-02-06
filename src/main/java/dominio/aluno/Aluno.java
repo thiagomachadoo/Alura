@@ -1,4 +1,4 @@
-package aluno;
+package dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
