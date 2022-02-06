@@ -1,6 +1,4 @@
-package test;
-
-import aluno.CPF;
+import dominio.aluno.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

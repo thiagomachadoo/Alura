@@ -1,4 +1,4 @@
-package aluno;
+package dominio.aluno;
 
 public class Email {
     //value object
