@@ -25,7 +25,7 @@ public class Aluno {
     }
 
     public static void main(String[] args) {
-        Aluno a = new Aluno(new CPF("123"), "fulano",new Email("fulano@gmail"));
+        Aluno a = new Aluno(new CPF("123.543.543-11"), "fulano",new Email("fulano@gmail.com"));
     }
 
     public String getCpf(){
