@@ -40,7 +40,7 @@ public class RepositorioDeAlunosUsandoJDBC implements RepositorioDeAlunos {
 //result set
     @Override
     public Aluno buscarPorCPF(CPF cpf) throws SQLException {
-        {
+        try{
             String sql = "SELECT id, nome, email FROM ALUNO WHERE cpf = ?";
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setString(1, cpf.getNumero());
@@ -65,6 +65,8 @@ public class RepositorioDeAlunosUsandoJDBC implements RepositorioDeAlunos {
                 encontrado.adicionarTelefone(ddd, numero);
             }
             return encontrado;
+        }catch (SQLException e){
+            throw new SQLException(e);
         }
     }
 
