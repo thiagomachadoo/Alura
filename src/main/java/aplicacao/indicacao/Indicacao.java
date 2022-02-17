@@ -1,4 +1,4 @@
-package dominio.indicacao;
+package aplicacao.indicacao;
 
 import dominio.aluno.Aluno;
 
