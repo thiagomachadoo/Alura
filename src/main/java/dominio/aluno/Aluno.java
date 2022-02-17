@@ -12,6 +12,8 @@ public class Aluno {
 
     private Email email;
 
+    private String senha;
+
     private List<Telefone> telefones = new ArrayList<>();
 
     public void adicionarTelefone(String ddd, String numero){
