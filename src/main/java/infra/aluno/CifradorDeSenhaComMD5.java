@@ -2,11 +2,10 @@ package infra.aluno;
 
 import dominio.CifradorDeSenha;
 
-import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class CifradorDeSenhaCOmMD5 implements CifradorDeSenha {
+public class CifradorDeSenhaComMD5 implements CifradorDeSenha {
 
 
     @Override
