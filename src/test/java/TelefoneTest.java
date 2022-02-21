@@ -11,8 +11,6 @@ public class TelefoneTest {
 
         assertThrows(IllegalArgumentException.class,
                 () -> new Telefone("",""));
-
-         new Telefone("DDD inválido","Número inválido");
     }
 
     @Test
