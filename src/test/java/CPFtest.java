@@ -13,8 +13,7 @@ public class CPFtest {
         assertThrows(IllegalArgumentException.class,
                 () -> new CPF(""));
 
-        assertThrows(IllegalArgumentException.class,
-                () -> new CPF("CPF inválido"));
+
     }
 
     @Test
